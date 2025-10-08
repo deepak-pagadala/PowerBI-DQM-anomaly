@@ -3,7 +3,7 @@
 
 A production-ready Data Quality Management (DQM) system built in Power BI with comprehensive ETL data validation, reconciliation logic, and statistical anomaly detection.
 
-![Architecture](./docs/architecture.jpg)
+![Architecture](./docs/architecture.png)
 
 ---
 
@@ -190,6 +190,9 @@ Full DAX library available in `/dax/`.
 ---
 
 ## 📸 Screenshots
+
+### Data Models
+![Data Models](./docs/datamodels.jpg)
 
 ### DQ Scorecard
 ![DQ Scorecard](./docs/scorecard.jpg)
