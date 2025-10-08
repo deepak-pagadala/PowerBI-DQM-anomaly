@@ -211,23 +211,6 @@ Full DAX library available in `/dax/`.
 - [ ] Create unit tests for Power Query M scripts
 - [ ] Add CI/CD pipeline for automated deployment
 
----
-
-## 📝 Testing
-
-The `/tests/` folder contains:
-- **dq-rules-checklist.md** – Complete validation rule documentation
-- **validation-queries.md** – Sample queries to verify data quality
-
-Run these checks after modifying ETL logic to ensure integrity.
-
----
-
-## 🔒 License
-
-MIT License - see [LICENSE](LICENSE) file for details
-
----
 
 
 ## ⚠️ Data Notice
