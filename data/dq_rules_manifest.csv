@@ -1,0 +1,12 @@
+rule_id,table,column,rule_type,description
+1,customers,email,NOT_NULL,Email must not be null
+2,customers,state,DOMAIN,State must be a valid US state (predefined list)
+3,customers,customer_id,UNIQUE,Customer ID must be unique
+4,orders,order_datetime,RANGE,Order date must be after customer signup_date
+5,orders,state_at_purchase,DOMAIN,State at purchase must be valid (predefined list)
+6,order_items,quantity,RANGE,Quantity must be >= 1
+7,order_items,unit_price,RANGE,Unit price must be > 0
+8,order_items,product_id,FK,Product_id must exist in products table
+9,payments,payment_datetime,SEQUENCE,Payment date must be >= order date
+10,deliveries,delivery_date,SEQUENCE,Delivery >= Ship >= Order dates
+11,products,weight_oz,OPTIONAL,Weight may be null for legacy records (schema drift)
